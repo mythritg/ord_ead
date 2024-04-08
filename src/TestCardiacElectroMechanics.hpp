@@ -33,8 +33,8 @@ OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 */
 
-#ifndef TESTANOTHERCARDIACELECTROMECHANICSTUTORIAL_HPP_
-#define TESTANOTHERCARDIACELECTROMECHANICSTUTORIAL_HPP_
+#ifndef TESTCARDIACELECTROMECHANICS_HPP_
+#define TESTCARDIACELECTROMECHANICS_HPP_
 
 /*
  * ## Cardiac Electro-mechanical Problems (cont.)
@@ -84,7 +84,7 @@ public:
     }
 };
 
-class TestAnotherCardiacElectroMechanicsTutorial : public CxxTest::TestSuite
+class TESTCARDIACELECTROMECHANICS : public CxxTest::TestSuite
 {
 public:
     /*
@@ -385,4 +385,4 @@ public:
 *
  * **More examples:** For a 3d ellipsoid geometry test, see [`TestCardiacElectroMechanicsOnEllipsoid.hpp`](https://github.com/Chaste/Chaste/blob/develop/heart/test/mechanics/TestCardiacElectroMechanicsOnEllipsoid.hpp).
  */
-#endif /* TESTANOTHERCARDIACELECTROMECHANICSTUTORIAL_HPP_ */
+#endif /* TESTCARDIACELECTROMECHANICS_HPP_ */
